@@ -1,7 +1,7 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { Header } from './Header';
+import { Header } from '../components/Headers/Header';
 
 export default {
   title: 'Example/Header',
@@ -17,7 +17,7 @@ const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 export const LoggedIn = Template.bind({});
 LoggedIn.args = {
   user: {
-    name: 'Mário Costa',
+    name: 'Mário Costa  ',
   },
 };
 
